@@ -8,8 +8,12 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   version: "1.0.0",
   orientation: "portrait",
   scheme: "bootstrap-mobile-test",
+  platforms: ["ios", "android"],
   userInterfaceStyle: "automatic",
   runtimeVersion: "1.0.0",
+  updates: {
+    url: "https://u.expo.dev/71cbda0a-6885-4a12-811f-0979002e01e5",
+  },
   assetBundlePatterns: ["**/*"],
   ios: {
     supportsTablet: false,
@@ -19,7 +23,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   android: {
-    package: "ai.analogous.bootstrap-mobile-test",
+    package: "ai.analogous.bootstrap_mobile_test",
     edgeToEdgeEnabled: true,
   },
   plugins: [
