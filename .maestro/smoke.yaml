@@ -1,0 +1,9 @@
+appId: ai.analogous.bootstrap-mobile-test
+name: Smoke - App launches
+tags:
+  - smoke
+---
+- launchApp
+- assertVisible:
+    id: "app-title"
+- assertVisible: "Up and running."
