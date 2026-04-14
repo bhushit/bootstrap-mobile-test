@@ -10,6 +10,9 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   scheme: "bootstrap-mobile-test",
   userInterfaceStyle: "automatic",
   runtimeVersion: "1.0.0",
+  updates: {
+    url: "https://u.expo.dev/71cbda0a-6885-4a12-811f-0979002e01e5",
+  },
   assetBundlePatterns: ["**/*"],
   ios: {
     supportsTablet: false,
