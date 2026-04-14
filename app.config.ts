@@ -8,6 +8,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
   version: "1.0.0",
   orientation: "portrait",
   scheme: "bootstrap-mobile-test",
+  platforms: ["ios", "android"],
   userInterfaceStyle: "automatic",
   runtimeVersion: "1.0.0",
   updates: {
