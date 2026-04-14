@@ -8,7 +8,7 @@ export function HomeScreen() {
         <Text style={styles.title} testID="app-title">
           bootstrap-mobile-test
         </Text>
-        <Text style={styles.subtitle}>Up and running.</Text>
+        <Text style={styles.subtitle}>Shipppped!</Text>
       </View>
     </SafeAreaView>
   );
