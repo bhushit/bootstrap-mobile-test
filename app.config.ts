@@ -23,7 +23,7 @@ export default ({ config }: ConfigContext): ExpoConfig => ({
     },
   },
   android: {
-    package: "ai.analogous.bootstrap-mobile-test",
+    package: "ai.analogous.bootstrap_mobile_test",
     edgeToEdgeEnabled: true,
   },
   plugins: [
